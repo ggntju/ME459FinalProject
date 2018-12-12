@@ -14,7 +14,7 @@ public class meshDataReader {
             String line;
 
             while((line = reader.readLine()) != null){
-                String item[] = line.split(", ");
+                String item[] = line.split(",");
                 meshData.add(item);
             }
         } catch (Exception e) {

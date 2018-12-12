@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.7.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Grant/Desktop/Cmake_JAVA
+CMAKE_SOURCE_DIR = /Users/Grant/Downloads/ME459FinalProject/CMake_JAVA
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Grant/Desktop/Cmake_JAVA
+CMAKE_BINARY_DIR = /Users/Grant/Downloads/ME459FinalProject/CMake_JAVA
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,9 +91,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Grant/Desktop/Cmake_JAVA/CMakeFiles /Users/Grant/Desktop/Cmake_JAVA/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Grant/Downloads/ME459FinalProject/CMake_JAVA/CMakeFiles /Users/Grant/Downloads/ME459FinalProject/CMake_JAVA/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Grant/Desktop/Cmake_JAVA/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Grant/Downloads/ME459FinalProject/CMake_JAVA/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

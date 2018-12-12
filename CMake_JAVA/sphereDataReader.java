@@ -24,7 +24,7 @@ public class sphereDataReader {
     }
 
 
-    void outputMeshData(){
+    void outputSphereData(){
         int n = sphereData.size();
         System.out.printf("Number of points is %d\n", n);
         for(int i = 0; i < n; i++){

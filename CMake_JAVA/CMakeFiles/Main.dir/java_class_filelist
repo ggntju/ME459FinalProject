@@ -1,3 +1,5 @@
 Main.class
+collisionDetector.class
+helper.class
 meshDataReader.class
 sphereDataReader.class
