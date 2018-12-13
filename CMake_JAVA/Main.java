@@ -23,7 +23,7 @@ public class Main {
             for(int j = 0; j< numberSpheres; j++){
                 boolean flag = cD.sphereTriangleIntersection(cD.getTriangleData(mDR.meshData, i), cD.getSphereData(sDR.sphereData, j));
                 if(flag){
-                    int[] pair = {i,j};
+                    int[] pair = {j,i};
                     collisionPair.add(pair);
                 }
             }

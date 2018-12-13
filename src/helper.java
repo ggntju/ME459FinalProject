@@ -10,7 +10,7 @@ public class helper {
 
     void writeToFile() throws IOException {
         BufferedWriter writer = new BufferedWriter(new FileWriter("result.txt"));
-        System.out.print(collisionPair.size());
+        writer.write("s,t" + "\n");
         for(int[] pair: collisionPair){
             writer.write(pair[0] + "," + pair[1] + "\n");
         }
