@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Grant/Downloads/ME459FinalProject/CMake_JAVA
+# Install script for directory: /Users/Grant/Desktop/ME459/FinalProject/CMake_JAVA
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/Grant/Downloads/ME459FinalProject/CMake_JAVA/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/Grant/Desktop/ME459/FinalProject/CMake_JAVA/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

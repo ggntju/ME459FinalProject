@@ -1,0 +1,98 @@
+\hypertarget{classcollision_detector}{}\section{collision\+Detector Class Reference}
+\label{classcollision_detector}\index{collision\+Detector@{collision\+Detector}}
+
+
+\mbox{\hyperlink{classcollision_detector}{collision\+Detector}} class determines whether there is collision between a triangle and a sphere  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcollision_detector_ac562a015080bd217e561a1ca44a59517}\label{classcollision_detector_ac562a015080bd217e561a1ca44a59517}} 
+{\bfseries collision\+Detector} (Array\+List$<$ String\mbox{[}$\,$\mbox{]}$>$ mesh\+Data, Array\+List$<$ String\mbox{[}$\,$\mbox{]}$>$ sphere\+Data, int number\+Triangles, int number\+Spheres, double radius)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Array\+List$<$ String\mbox{[}$\,$\mbox{]}$>$ \mbox{\hyperlink{classcollision_detector_a0a7222d394163b8942c51526a318fa29}{get\+Triangle\+Data}} (Array\+List$<$ String\mbox{[}$\,$\mbox{]}$>$ mesh\+Data, int index)
+\item 
+boolean \mbox{\hyperlink{classcollision_detector_a4fdda8a1bdcf60fc175ac39cd0b1a889}{sphere\+Triangle\+Intersection}} (Array\+List$<$ String\mbox{[}$\,$\mbox{]}$>$ triangle\+Data, String\mbox{[}$\,$\mbox{]} sphere\+Data)
+\item 
+double \mbox{\hyperlink{classcollision_detector_a36ec67a8ac6e85caafc30f5590668196}{point2\+Seg\+Dist}} (double\mbox{[}$\,$\mbox{]} P, double\mbox{[}$\,$\mbox{]} A, double\mbox{[}$\,$\mbox{]} B)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\mbox{\hyperlink{classcollision_detector}{collision\+Detector}} class determines whether there is collision between a triangle and a sphere 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mesh\+Data} & is an Array\+List$<$\+String\mbox{[}$\,$\mbox{]}$>$ which stores the mesh data and also a constructor input \\
+\hline
+{\em sphere\+Data} & is an Array\+List$<$\+String\mbox{[}$\,$\mbox{]}$>$ which stores the sphere data and also a constructor input \\
+\hline
+{\em number\+Triangles} & is an int which stores the number of triangles and also a constructor input \\
+\hline
+{\em number\+Spheres} & is an int which stores the number of spheres and also a constructor input \\
+\hline
+{\em radius} & is a double which stores the radius of spheres and also a constructor input \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classcollision_detector_a0a7222d394163b8942c51526a318fa29}\label{classcollision_detector_a0a7222d394163b8942c51526a318fa29}} 
+\index{collision\+Detector@{collision\+Detector}!get\+Triangle\+Data@{get\+Triangle\+Data}}
+\index{get\+Triangle\+Data@{get\+Triangle\+Data}!collision\+Detector@{collision\+Detector}}
+\subsubsection{\texorpdfstring{get\+Triangle\+Data()}{getTriangleData()}}
+{\footnotesize\ttfamily Array\+List$<$String\mbox{[}$\,$\mbox{]}$>$ collision\+Detector.\+get\+Triangle\+Data (\begin{DoxyParamCaption}\item[{Array\+List$<$ String\mbox{[}$\,$\mbox{]}$>$}]{mesh\+Data,  }\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+function \mbox{\hyperlink{classcollision_detector_a0a7222d394163b8942c51526a318fa29}{get\+Triangle\+Data(\+Array\+List$<$\+String\mbox{[}$\,$\mbox{]}$>$ mesh\+Data, int index)}} gets X\+YZ coordinates of a triangle 
+\begin{DoxyParams}{Parameters}
+{\em mesh\+Data} & is an Array\+List$<$\+String\mbox{[}$\,$\mbox{]}$>$ that stores the mesh data \\
+\hline
+{\em index} & is an int that specifies the index of the triangle \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Array\+List$<$\+String\mbox{[}$\,$\mbox{]}$>$ that stores data of index-\/th triangle 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcollision_detector_a36ec67a8ac6e85caafc30f5590668196}\label{classcollision_detector_a36ec67a8ac6e85caafc30f5590668196}} 
+\index{collision\+Detector@{collision\+Detector}!point2\+Seg\+Dist@{point2\+Seg\+Dist}}
+\index{point2\+Seg\+Dist@{point2\+Seg\+Dist}!collision\+Detector@{collision\+Detector}}
+\subsubsection{\texorpdfstring{point2\+Seg\+Dist()}{point2SegDist()}}
+{\footnotesize\ttfamily double collision\+Detector.\+point2\+Seg\+Dist (\begin{DoxyParamCaption}\item[{double \mbox{[}$\,$\mbox{]}}]{P,  }\item[{double \mbox{[}$\,$\mbox{]}}]{A,  }\item[{double \mbox{[}$\,$\mbox{]}}]{B }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+function \mbox{\hyperlink{classcollision_detector_a36ec67a8ac6e85caafc30f5590668196}{point2\+Seg\+Dist(double\mbox{[}$\,$\mbox{]} P, double\mbox{[}$\,$\mbox{]} A, double\mbox{[}$\,$\mbox{]} B)}} determines the distance between a point P and a segment line AB in space 
+\begin{DoxyParams}{Parameters}
+{\em P} & is a double\mbox{[}\mbox{]} that stores the X\+YZ coordinates of the point P \\
+\hline
+{\em A} & is a double\mbox{[}\mbox{]} that stores the X\+YZ coordinates of the point A \\
+\hline
+{\em B} & is a double\mbox{[}\mbox{]} that stores the X\+YZ coordinates of the point B \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double, the distance between a point P and a segment line AB in space 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcollision_detector_a4fdda8a1bdcf60fc175ac39cd0b1a889}\label{classcollision_detector_a4fdda8a1bdcf60fc175ac39cd0b1a889}} 
+\index{collision\+Detector@{collision\+Detector}!sphere\+Triangle\+Intersection@{sphere\+Triangle\+Intersection}}
+\index{sphere\+Triangle\+Intersection@{sphere\+Triangle\+Intersection}!collision\+Detector@{collision\+Detector}}
+\subsubsection{\texorpdfstring{sphere\+Triangle\+Intersection()}{sphereTriangleIntersection()}}
+{\footnotesize\ttfamily boolean collision\+Detector.\+sphere\+Triangle\+Intersection (\begin{DoxyParamCaption}\item[{Array\+List$<$ String\mbox{[}$\,$\mbox{]}$>$}]{triangle\+Data,  }\item[{String \mbox{[}$\,$\mbox{]}}]{sphere\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+function \mbox{\hyperlink{classcollision_detector_a4fdda8a1bdcf60fc175ac39cd0b1a889}{sphere\+Triangle\+Intersection(\+Array\+List$<$\+String\mbox{[}$\,$\mbox{]}$>$ triangle\+Data, String\mbox{[}$\,$\mbox{]} sphere\+Data)}} determines whether there is collision between a triangle and a sphere 
+\begin{DoxyParams}{Parameters}
+{\em triangle\+Data} & is an Array\+List$<$\+String\mbox{[}$\,$\mbox{]}$>$ that stores X\+YZ coordinates of a triangle \\
+\hline
+{\em sphere\+Data} & is a String\mbox{[}\mbox{]} that stores X\+YZ coordinates of a sphere \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean, true for collision, false for no collision 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/\+Grant/\+Desktop/\+M\+E459/\+Final\+Project/src/collision\+Detector.\+java\end{DoxyCompactItemize}

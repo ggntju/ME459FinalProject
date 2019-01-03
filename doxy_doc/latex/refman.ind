@@ -1,0 +1,60 @@
+\begin{theindex}
+
+  \item {collision\+Detector}, \hyperpage{3}
+    \subitem {get\+Triangle\+Data}, \hyperpage{3}
+    \subitem {point2\+Seg\+Dist}, \hyperpage{4}
+    \subitem {sphere\+Triangle\+Intersection}, \hyperpage{4}
+
+  \indexspace
+
+  \item {get\+Triangle\+Data}
+    \subitem {collision\+Detector}, \hyperpage{3}
+
+  \indexspace
+
+  \item {helper}, \hyperpage{5}
+    \subitem {write\+To\+File}, \hyperpage{5}
+
+  \indexspace
+
+  \item {Main}, \hyperpage{6}
+    \subitem {main}, \hyperpage{6}
+  \item {main}
+    \subitem {Main}, \hyperpage{6}
+  \item {mesh\+Data\+Reader}, \hyperpage{7}
+    \subitem {output\+Mesh\+Data}, \hyperpage{7}
+    \subitem {read\+Mesh\+Data}, \hyperpage{7}
+
+  \indexspace
+
+  \item {output\+Mesh\+Data}
+    \subitem {mesh\+Data\+Reader}, \hyperpage{7}
+  \item {output\+Sphere\+Data}
+    \subitem {sphere\+Data\+Reader}, \hyperpage{8}
+
+  \indexspace
+
+  \item {point2\+Seg\+Dist}
+    \subitem {collision\+Detector}, \hyperpage{4}
+
+  \indexspace
+
+  \item {read\+Mesh\+Data}
+    \subitem {mesh\+Data\+Reader}, \hyperpage{7}
+  \item {read\+Sphere\+Data}
+    \subitem {sphere\+Data\+Reader}, \hyperpage{8}
+
+  \indexspace
+
+  \item {sphere\+Data\+Reader}, \hyperpage{8}
+    \subitem {output\+Sphere\+Data}, \hyperpage{8}
+    \subitem {read\+Sphere\+Data}, \hyperpage{8}
+  \item {sphere\+Triangle\+Intersection}
+    \subitem {collision\+Detector}, \hyperpage{4}
+
+  \indexspace
+
+  \item {write\+To\+File}
+    \subitem {helper}, \hyperpage{5}
+
+\end{theindex}

@@ -1,9 +1,21 @@
 import java.io.*;
 import java.util.ArrayList;
 public class sphereDataReader {
+    /**
+     * \class sphereDataReader
+     * \brief sphereDataReader class reads the sphere data from an input file called "spheres.input"
+     * @param sphereData is an ArrayList<String[]> stores the data from the file
+     * @param radius is a double that stores the radius of the spheres
+     * @param numberSpheres is an int that stores the number of spheres
+     */
     ArrayList<String[]> sphereData = new ArrayList<>();
     double radius;
     int numberSpheres;
+
+    /**
+     * \protected readSphereData() reads the sphere data
+     * @return nothing
+     */
     void readSphereData() {
         try{
             BufferedReader reader = new BufferedReader(new FileReader("spheres.input"));
@@ -15,7 +27,7 @@ public class sphereDataReader {
             String line;
 
             while((line = reader.readLine()) != null){
-                String item[] = line.split(", ");
+                String item[] = line.split(",");
                 sphereData.add(item);
             }
         } catch (Exception e) {
@@ -23,6 +35,10 @@ public class sphereDataReader {
         }
     }
 
+    /**
+     * \protected outputSphereData() outputs the mesh data for testing
+     * @return nothing
+     */
 
     void outputSphereData(){
         int n = sphereData.size();

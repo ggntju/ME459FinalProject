@@ -2,10 +2,19 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class meshDataReader {
-
+    /**
+     * \class meshDataReader
+     * \brief meshDataReader class reads the mesh data from an input file called "mesh.input"
+     * @param meshData is an ArrayList<String[]> stores the data from the file
+     * @param numberTriangles is an int stores the number of triangles
+     */
     ArrayList<String[]> meshData = new ArrayList<>();
     int numberTriangles;
 
+    /**
+     * \protected readMeshData() reads the mesh data
+     * @return nothing
+     */
     void readMeshData() {
         try{
             BufferedReader reader = new BufferedReader(new FileReader("mesh.input"));
@@ -22,6 +31,10 @@ public class meshDataReader {
         }
     }
 
+    /**
+     * \protected outputMeshData() outputs the mesh data for testing
+     * @return nothing
+     */
 
     void outputMeshData(){
         int n = meshData.size();

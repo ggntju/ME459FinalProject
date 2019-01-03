@@ -1,0 +1,28 @@
+\contentsline {chapter}{\numberline {1}Class Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Class List}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Class Documentation}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}collision\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Detector Class Reference}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Detailed Description}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Member Function Documentation}{3}{subsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.2.1}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Triangle\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Data()}{4}{subsubsection.2.1.2.1}
+\contentsline {subsubsection}{\numberline {2.1.2.2}point2\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Seg\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Dist()}{4}{subsubsection.2.1.2.2}
+\contentsline {subsubsection}{\numberline {2.1.2.3}sphere\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Triangle\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Intersection()}{4}{subsubsection.2.1.2.3}
+\contentsline {section}{\numberline {2.2}helper Class Reference}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Detailed Description}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Member Function Documentation}{5}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}write\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}To\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}File()}{5}{subsubsection.2.2.2.1}
+\contentsline {section}{\numberline {2.3}Main Class Reference}{6}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Detailed Description}{6}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Member Function Documentation}{6}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}main()}{6}{subsubsection.2.3.2.1}
+\contentsline {section}{\numberline {2.4}mesh\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Data\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Reader Class Reference}{7}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Detailed Description}{7}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Member Function Documentation}{7}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}output\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Mesh\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Data()}{7}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}read\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Mesh\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Data()}{7}{subsubsection.2.4.2.2}
+\contentsline {section}{\numberline {2.5}sphere\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Data\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Reader Class Reference}{8}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Detailed Description}{8}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Member Function Documentation}{8}{subsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.2.1}output\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Sphere\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Data()}{8}{subsubsection.2.5.2.1}
+\contentsline {subsubsection}{\numberline {2.5.2.2}read\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Sphere\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Data()}{8}{subsubsection.2.5.2.2}
+\contentsline {chapter}{Index}{9}{section*.9}

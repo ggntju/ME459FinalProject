@@ -2,8 +2,15 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Main {
-
+    /**
+     * \class Main
+     * \brief Entry point for the program to run
+     */
     public static void main(String[] args) {
+        /**
+         * \brief main function
+         * @param collisionPair is an ArrayList<int[]> that stores the collision pair for sphere i and triangle j
+         */
         ArrayList<int[]> collisionPair = new ArrayList<>();
         meshDataReader mDR = new meshDataReader();
         mDR.readMeshData();
@@ -30,9 +37,9 @@ public class Main {
         }
         long tEnd = System.currentTimeMillis();
         long tDelta = tEnd - tStart;
-        double runningTime = tDelta / 1000.0;
+        double runningTime = tDelta;
         System.out.printf("%d collision pairs\n", collisionPair.size());
-        System.out.printf("Finish in %f seconds\n", runningTime);
+        System.out.printf("Finish in %f ms\n", runningTime);
         //System.out.printf("%d,%d", collisionPair.get(200)[0], collisionPair.get(200)[1]);
         helper hp = new helper(collisionPair);
         try{

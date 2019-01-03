@@ -2,6 +2,15 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class collisionDetector {
+    /**
+     * \class collisionDetector
+     * \brief collisionDetector class determines whether there is collision between a triangle and a sphere
+     * @param meshData is an ArrayList<String[]> which stores the mesh data and also a constructor input
+     * @param sphereData is an ArrayList<String[]> which stores the sphere data and also a constructor input
+     * @param numberTriangles is an int which stores the number of triangles and also a constructor input
+     * @param numberSpheres is an int which stores the number of spheres and also a constructor input
+     * @param radius is a double which stores the radius of spheres and also a constructor input
+     */
     ArrayList<String[]> meshData;
     ArrayList<String[]> sphereData;
     int numberTriangles;
@@ -15,6 +24,12 @@ public class collisionDetector {
         this.radius = radius;
     }
 
+    /**
+     * \protected function getTriangleData(ArrayList<String[]> meshData, int index) gets XYZ coordinates of a triangle
+     * @param meshData is an ArrayList<String[]> that stores the mesh data
+     * @param index is an int that specifies the index of the triangle
+     * @return ArrayList<String[]> that stores data of index-th triangle
+     */
     ArrayList<String[]> getTriangleData(ArrayList<String[]> meshData, int index){
         if(index >= numberTriangles){
             System.out.print("Out of index, # of triangles");
@@ -29,6 +44,12 @@ public class collisionDetector {
         return result;
     }
 
+    /**
+     * \protectedfunction getSphereData(ArrayList<String[]> sphereData, int index) gets XYZ coordinates of a sphere
+     * @param sphereData is an ArrayList<String[]> that stores the sphere data
+     * @param index is an int that specifies the index of the sphere
+     * @return String[] that stores the data of index-th sphere
+     */
     String[] getSphereData(ArrayList<String[]> sphereData, int index){
         if(index >= numberSpheres){
             System.out.print("Out of index, # of spheres");
@@ -39,6 +60,12 @@ public class collisionDetector {
         return result;
     }
 
+    /**
+     * \protected function sphereTriangleIntersection(ArrayList<String[]> triangleData, String[] sphereData) determines whether there is collision between a triangle and a sphere
+     * @param triangleData is an ArrayList<String[]> that stores XYZ coordinates of a triangle
+     * @param sphereData is a String[] that stores XYZ coordinates of a sphere
+     * @return boolean, true for collision, false for no collision
+     */
     boolean sphereTriangleIntersection(ArrayList<String[]> triangleData, String[] sphereData){
         ArrayList<double[]> triangle = new ArrayList<>();
         for(int i = 0; i < triangleData.size(); i++){
@@ -133,6 +160,13 @@ public class collisionDetector {
         // end true check method
     }
 
+    /**
+     * \protected function point2SegDist(double[] P, double[] A, double[] B) determines the distance between a point P and a segment line AB in space
+     * @param P is a double[] that stores the XYZ coordinates of the point P
+     * @param A is a double[] that stores the XYZ coordinates of the point A
+     * @param B is a double[] that stores the XYZ coordinates of the point B
+     * @return double, the distance between a point P and a segment line AB in space
+     */
     double point2SegDist(double[] P, double[] A, double[] B){
         double x1 = A[0];
         double y1 = A[1];
